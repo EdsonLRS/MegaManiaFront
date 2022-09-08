@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header {
+    background-color: #2D44B9;
+    height: 80px;
+}
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    height: 100%;
+        display: flex;
+        justify-content: space-between ;
+        align-items:center ;
+}
+
+.menu a {
+     width: 660px;
+     display: flex;
+     justify-content: space-between;
+}
+
+
+.menu a {
+     color: white;   
+     text-decoration: none;   
+     text-transform: uppercase;
+}
